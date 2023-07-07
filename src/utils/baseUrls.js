@@ -1,0 +1,1 @@
+export const mailUrl = "http://localhost:8080"

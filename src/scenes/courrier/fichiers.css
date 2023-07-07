@@ -1,0 +1,35 @@
+.upload-file{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px dashed white ;
+    transition: all ease 250ms;
+    padding: 20px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.upload-file:hover {
+    border: 1.5px dashed rgb(129, 200, 228) ; 
+}
+
+.upload-file:hover .upload-file p,.upload-file:hover .upload-file svg{
+    color: rgb(129, 200, 228) ;
+}
+
+.upload-file p{
+    display: flex;
+    font-weight: 800;
+    letter-spacing: 2;
+}
+
+.upload-file svg{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.upload-file input[type ="file"]
+{
+    display: none;
+}
